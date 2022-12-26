@@ -14,8 +14,6 @@ function reverse(str) {
 }
 
 
-reverse("abcd")
-
 module.exports = reverse;
 
 // function reverse(str) {
@@ -35,3 +33,12 @@ module.exports = reverse;
 //     }
 //     return reversed;
 //   }
+
+// function reverse(str) {
+//     if (str === '') return '';
+//     else {
+//         for (let char of str) {
+//             return reverse(str.substring(1,str.length)) + char;
+//         }
+//     }
+// }
